@@ -1,5 +1,5 @@
 FROM node:18.6-alpine
-WORKDIR /code
+WORKDIR /app
 COPY package.json package.json
 RUN npm i 
 EXPOSE 3000
